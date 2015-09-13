@@ -10,12 +10,11 @@ a {text-decoration:none}
 .point {color:#d91b5c; font-weight: bold;}
 
 /*레이아웃*/
-body {background:url("http://static.naver.net/newsstand/img/20121231/bg_bd.png")}
-#wrap 
-{width: 900px; 
-height: 540px; 
-margin: 0 auto; 
-background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png")no-repeat 50% 0;}
+
+
+body {background:url("http://static.naver.net/newsstand/img/20121231/bg_bd.png") repeat scroll 0% 0%;}
+
+#wrap {width: 900px; height: 540px; margin: 0 auto; background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png")no-repeat 50% 0;}
 #wrap .header {margin: 0 30px; height:90px; border-bottom: 3px solid #545454; padding-top:20px}
 #wrap .content {width: 840px; height: 380px; margin:0 auto;}
 #wrap .content .article-left {float:left; width: 510px; height: 375px; margin-top:10px}
@@ -30,7 +29,7 @@ background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png")no-
 .header h1 a img {}
 .header .util {}
 .header .util li {float:left;}
-.header .util li p {font-size:11px; margin-top:5px;}
+.header .util li p {font-size:11px; margin-top:5px; margin-left:10px;}
 .header span {float:right; padding-top:20px}
 .header span img {}
 
