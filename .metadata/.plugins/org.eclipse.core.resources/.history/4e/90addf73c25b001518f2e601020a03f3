@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style>
+*{margin:0; padding:0;}
+ul{list-style: none;}
+
+.banner {border:1px solid red; height:450px; text-align:center;}
+.banner li {display:inline-block;}
+		
+	</style>
+</head>
+<body>
+		 <div class="banner">
+	 	<!-- ul>li*3>a+img -->
+	 	<!-- markup -->
+	 	<ul>
+	 		<li class="on">
+	 			<a href="">1</a>
+	 			<div><img src="http://cache.desktopnexus.com/thumbseg/2016/2016548-bigthumbnail.jpg" alt="" /></div>
+	 		</li>
+	 		<li>
+	 			<a href="">2</a>
+	 			<div><img src="http://www.leebyunghun.kr/html/images/main/add_img02.jpg" alt="" /></div>
+	 		</li>
+	 		<li>
+	 			<a href="">3</a>
+	 			<div><img src="http://www.leebyunghun.kr/html/images/main/add_img03.jpg" alt="" /></div>
+	 		</li>
+	 	</ul>
+	 	
+	 	
+	 </div>
+	 
+</body>
+</html>

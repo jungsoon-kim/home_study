@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="common2.css" />
+</head>
+<body>
+	<div id="topbar">
+		<div class="wrap">
+			<fieldset>
+				<legend class="ir">검색</legend>
+				<label for="search"></label>
+				<input type="text" id="search" />
+				<input type="submit" value="검색" />
+			</fieldset>
+			
+		</div><!--wrap[ex]-->
+		
+	</div><!--topbar[ex]-->
+	
+	<div id="header">
+		<div class="wrap">
+			<h1><a href="#"><img src="" alt="" /></a></h1>
+			
+			<div class="banner">
+				<ul>
+					<li><a href="">1</a>
+						<div><img src="" alt="" /></div>
+					</li>
+					<li><a href="">2</a>
+						<div><img src="" alt="" /></div>
+					</li>
+					<li><a href="">3</a>
+						<div><img src="" alt="" /></div>
+					</li>
+					<li><a href="">4</a>
+						<div><img src="" alt="" /></div>
+					</li>
+				</ul>
+				
+				
+			</div><!--banner[ex]-->
+			
+			<div class="lnb_box">
+				<ul class="lnb">
+					<li class="on"><a href="">menu1</a>
+						<div>
+							<ul class="lnb_hidden">
+								<li><a href="">menu1-dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="lnb_last">
+											<li><a href="">m1-depth1</a></li>
+											<li><a href="">m1-depth3</a></li>
+											<li><a href="">m1-depth3</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li><!--first[ex]-->
+					
+					<li>
+						<a href="">menu</a>
+						<div>
+							<ul class="lnb_hidden">
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="lnb_last">
+											<li><a href="">depth2</a></li>
+											<li><a href="">depth3</a></li>
+											<li><a href="">depth3</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							
+						</div>	
+					</li><!--second[ex]-->
+					
+					<li>
+						<a href="">menu</a>
+						<div>
+							<ul class="lnb_hidden">
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="lnb_last">
+											<li><a href="">depth3</a></li>
+											<li><a href="">depth3</a></li>
+											<li><a href="">depth3</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>	
+					</li><!--third[ex]-->
+					<li>
+						<a href="">menu</a>
+						<div>
+							<ul class="lnb_hidden">
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="lnb_last">
+											<li><a href="">m41-depth3</a></li>
+											<li><a href="">m41-depth3</a></li>
+											<li><a href="">m41-depth3</a></li>
+										</ul>
+										
+									</div>
+								</li>
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="lnb_last">
+											<li><a href="">m42-depth3</a></li>
+											<li><a href="">m42-depth3</a></li>
+											<li><a href="">m42-depth3</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="lnb_last">
+											<li><a href="">m43-depth3</a></li>
+											<li><a href="">m43-depth3</a></li>
+											<li><a href="">m43-depth3</a></li>
+										</ul>
+										
+									</div>
+									
+								</li>
+							</ul>
+						</div>	
+					</li><!--last[ex]-->
+				</ul><!--lnb[ul]-->
+				
+				
+				
+			</div><!--lnb[ex]-->
+			
+		</div><!--wrap[ex]-->
+		
+		
+		
+	</div><!--header[ex]-->
+</body>
+</html>

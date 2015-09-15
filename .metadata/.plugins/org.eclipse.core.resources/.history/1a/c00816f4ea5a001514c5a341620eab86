@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="common.css" />
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">
+				<div class="header-top">
+					<div class="wrap">
+						<fieldset>
+							<legend class="ir">검색하기</legend>
+							<label for="search"> </label>
+							<input type="text" id="search" />
+							<input type="submit" value="검색하기" />
+						</fieldset>
+					</div>
+				
+				</div><!--header-top[ex]-->
+			<div class="wrap">
+			
+				
+			</div><!--common wrap[ex]-->
+			
+		</div><!--header[ex]-->
+		
+		<div id="container">
+			
+			<div id="visual">
+				
+				
+			</div><!--visual[ex]-->
+			
+			<div id="content">
+				<div class="wrap">
+					
+					
+				</div><!--common wrap[ex]-->
+				
+			</div>
+			
+		</div><!--container[ex]-->
+		
+		<div id="footer">
+			<div class="wrap">
+				
+				
+			</div><!--common wrap[ex]-->
+			
+			
+		</div><!--footer[ex]-->
+		
+		
+	</div><!--wrap[ex]-->
+	
+	
+</body>
+</html>

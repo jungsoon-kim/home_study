@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="common.css" />
+</head>
+<body>
+	<div id="wrap">
+		<div id="header" class="bd">
+				<div class="header-top">
+					<div class="wrap">
+						<fieldset>
+							<legend class="ir">검색하기</legend>
+							<label for="search"> </label>
+							<input type="text" id="search" />
+							<input type="submit" value="검색하기" />
+						</fieldset>
+					</div><!--common wrap[ex]-->
+				
+				</div><!--header-top[ex]-->
+			<div class="wrap bd">
+				<h1><a href="#"><img src="" alt="cube bridge" /></a></h1>
+				
+				<ul class="gnb">
+					<li><a href="#">Creators</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Product Place</a></li>
+					<li><a href="#">Event</a></li>
+					<li><a href="#">Webzine</a>
+						<ul class="gnb_hidden">
+							<li><a href="#">cover Stroy</a></li>
+							<li><a href="#">creators News</a>
+								<ul>
+									<li><a href="#">Best Portfolio</a></li>
+									<li><a href="#">Hot issue</a></li>
+								</ul>
+								
+							</li>
+							<li><a href="#">공연&amp;행사</a></li>
+							<li><a href="#">Talet Association</a></li>
+						</ul>
+						
+						
+					</li>
+				</ul>
+				
+				
+			</div><!--common wrap[ex]-->
+			
+		</div><!--header[ex]-->
+		
+		<div id="container" class="bd">
+			
+			<div id="visual" class="bd">
+				
+				
+			</div><!--visual[ex]-->
+			
+			<div id="content" class="bd">
+				<div class="wrap">
+					<div class="article-top bd">
+						
+					</div><!--article-top[ex]-->
+					
+					<div class="article-down bd">
+						
+					</div><!--article-down[ex]-->
+					
+				</div><!--common wrap[ex]-->
+				
+			</div>
+			
+		</div><!--container[ex]-->
+		
+		<div id="footer" class="bd">
+			<div class="wrap">
+				
+				
+			</div><!--common wrap[ex]-->
+			
+			
+		</div><!--footer[ex]-->
+		
+		
+	</div><!--wrap[ex]-->
+	
+	
+</body>
+</html>

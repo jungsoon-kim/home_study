@@ -1,0 +1,62 @@
+* {margin: 0; padding: 0;}
+ul,li {list-style-type: none;}
+a {text-decoration: none;}
+
+.bd {border: 1px solid black;}
+.br {border:1px solid red}
+.or_color {color: #F50;}
+
+/*레이아웃 */
+#wrap {width: 900px; height: 540px; margin:0 auto; background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png") no-repeat 50% 0px;}
+#wrap .header {width:840px; padding:20px 0 30px; margin:0 30px; border-bottom: 3px solid #545454;}
+#wrap .content {width: 840px; height: 385px;  margin:10px 30px;/*overflow:hidden;*/}
+.content .left{float:left; width:140px; height: 380px;}
+.content .center {width: 400px; height: 380px; margin-left:155px;}
+.content .right {float:right; width:270px; height:380px;}
+
+/*content */
+.header h1 {display:inline-block;}
+.header span {float:right; padding-top:25px;}
+.header .btn {}
+.header .btn li {float:left; }
+.header .btn li p {font-size:11px; margin:5px 0 0 5px}
+
+
+/*left*/
+
+.left ul {}
+.left ul li {}
+.left ul li a {font-size:12px; color:#333;}
+
+/*center*/
+.center .h_relnews {width: 400px; height: 100px; }
+
+.center .h_relnews li:first-child h2 a {font-size:25px; font-weight:bold; color: #00007C;}
+.center .h_relnews li:first-child span {font-size:13px;  margin-left:10px;}
+.center .h_relnews li:first-child span a {color: #464646; font-weight:bold}
+.center .h_relnews .list {width: 386; margin-left:15px; line-height:22px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; background: url("http://static.naver.net/newsstand/2015/0913/inews/194253/007.jpg") no-repeat 0px 2px;}
+.center .h_relnews .list a {color:#333; padding-left:10px;}
+
+.center .h_list {width:385px; height: 104px; margin: 24px 0px 12px 15px;}
+.center .h_list a {font-size: 14px; font-weight: bold; line-height: 26px; color:#333;}
+
+.center .h_list02 {width:385px; height: 104px; margin: 0px 0px 0px 15px;}
+.center .h_list02 a {font-size: 14px; font-weight: bold; line-height: 26px; color:#333;}
+.last_pa {margin:20px 0 0 15px; font-size:px}
+
+
+/* right */
+.right .joynews {width:270px; height:190px ;}
+.right .joynews ul {}
+.right .joynews ul li {width:130px; height:190px; float:left}
+.right .joynews ul li:first-child {margin-right:10px;}
+.right .joynews ul li a {}
+.right .joynews ul li a img {width: 130px; height: 142px;}
+.right .joynews ul li span {font-size: 12px; font-weight: normal; }
+
+.right .joynews_list {width: 270px; height: 140px;}
+.right .joynews_list ul {}
+.right .joynews_list ul li {line-height:23px;}
+.right .joynews_list ul li a {color: #333; font-size: 13px;}
+
+

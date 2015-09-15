@@ -1,0 +1,83 @@
+* {margin: 0; padding: 0;}
+ul,li{list-style-type: none;}
+a {text-decoration:none}
+
+.clearfix:after {display:block; visibility:hidden; clear:both; height:0; content:'';}
+.clearfix {*zoom:1;}
+.bd {border: 1px solid black;}
+.br {border: 1px solid red;}
+/*color*/
+.point {color:#d91b5c; font-weight: bold;}
+
+/*레이아웃*/
+body { background:url("http://static.naver.net/newsstand/img/20121231/bg_bd.png") repeat scroll 0% 0%;}
+
+#wrap {width: 900px; height: 540px; margin: 0 auto; background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png")no-repeat 50% 0;}
+#wrap .header {margin: 0 30px; height:90px; border-bottom: 3px solid #545454; padding-top:20px}
+#wrap .content {width: 840px; height: 380px; margin:0 auto;}
+#wrap .content .article-left {float:left; width: 510px; height: 375px; margin-top:10px}
+#wrap .content .article-right {float:right; width:275px; height:375px; margin-right:30px; margin-top:10px}
+
+/*컨텐츠 내용*/
+
+
+/*header*/
+.header h1 {display:inline-block;}
+.header h1 a {}
+.header h1 a img {}
+.header .util {}
+.header .util li {float:left;}
+.header .util li p {font-size:11px; margin-top:5px; margin-left:10px;}
+.header span {float:right; padding-top:20px}
+.header span img {}
+
+/*content*/
+.top_news {height:130px; margin-bottom:15px}
+.top_news ul {}
+.top_news ul li a {font-size:12px; font-weight:bold; color:#000;}
+.top_news ul li:first-child {}
+.top_news ul li:first-child h2 {display:block;}
+.top_news ul li:first-child h2 a {color: #D91B5C; font-size: 24px; line-height: 32px; letter-spacing: -2px;}
+.top_news ul li:first-child span {float:left; width: 160px; height: 94px; padding-right:15px;}
+.top_news ul li:first-child span img {width:100%; }
+.top_news ul li:first-child p {height:54px; padding-bottom:8px;}
+.top_news ul li:first-child p a {color: #7A7A7A;font-size: 12px;}
+
+
+.thumb {float:left; position:relative; overflow:hidden; width:162px; height:240px; border-top:2px solid #D91B5C; padding-top:9px;}
+.thumb ul {}
+.thumb ul li {width:123px; margin:0 auto;}
+.thumb ul li span {}
+.thumb ul li span img {width:126px; height:78px}
+.thumb p {font-size:11px; line-height:14px;}
+
+
+.sublist {border-top:2px solid #ccc; margin-left:20px; padding-top:8px;}
+.sublist ul {}
+.sublist ul li {}
+.sublist ul li a {font-size:14px; line-height:26px; color:#000000;}
+
+.issue {width:307px; height: 110px; margin-bottom:8px; overflow:hidden; border: 1px solid #ccc;}
+.issue h2 {background:url("http://static.naver.net/newsstand/2015/0911/etnews/155744/009.gif") no-repeat 0 0; text-indent:-9999px; padding-bottom:8px;}
+.issue ul {width: 307px; height: 82px; padding-left:15px }
+.issue ul li {padding-left:10px; padding-bottom:3px ; background:url("http://static.naver.net/newsstand/2015/0912/etnews/134248/010.gif") no-repeat scroll 0px 7px;}
+.issue ul li a {font-size:12px; letter-spacing:-1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.today_pt {width:307px; height: 255px;}
+.today_pt ul {}
+.today_pt ul li {width: 146px; height: 135px; float:left; margin-right:5px;}
+.today_pt ul li span {width: 146px; height: 95px;}
+.today_pt ul li span img {width:100%; }
+.today_pt ul li p {height:27px; font-size:11px; line-height:14px; color:#000000;}

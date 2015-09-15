@@ -1,0 +1,10 @@
+* {margin: 0; padding: 0;}
+ul,li {list-style-type: none;}
+a{text-decoration: none;}
+fieldset {border: 0 none;}
+.ir {font-size:0; width:0px; height:0px; overflow:hidden;}
+#topbar {height:40px; border-bottom:1px solid #a6a6a6; background:#ccc ;}
+.wrap {width:980px; height:40px; margin:0 auto; background:red;}
+#topbar .wrap {line-height:40px;}
+#topbar fieldset {float:right;}
+#topbar fieldset input[type="text"] {width:277px; height:23px; padding:0 10px; border:0 none;}

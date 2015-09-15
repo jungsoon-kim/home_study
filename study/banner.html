@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>banner</title>
+	<style type="text/css" media="screen">
+*{margin:0; padding:0;}
+ul{list-style: none;}
+.banner{
+  border:1px #F00 solid; 
+  height:430px;
+  overflow:hidden;
+}
+.banner li.on div{
+  display: block
+}
+.banner{
+  text-align:center;
+}
+.banner li{
+  display:inline-block;
+  
+}
+.banner li>a{
+  position: relative;
+  z-index: 1;
+  border:1px #F00 solid;
+  display: block;
+  width:20px; height:20px;
+  top:400px
+}
+.banner li div{
+  width: 100%;
+  border:1px #F00 solid;
+ position:absolute;
+  display: none;
+  top:0;
+  left:0
+}
+.banner li:nth-child(1) div{background:#D0D0CE}
+.banner li:nth-child(2) div{background:#B7B9B8}
+.banner li:nth-child(2) div{background:#061823}
+</style>
+</head>
+<body>
+	 <div class="banner">
+	 	<!-- ul>li*3>a+img -->
+	 	<!-- markup -->
+	 	<ul>
+	 		<li class="on">
+	 			<a href="">1</a>
+	 			<div><img src="http://www.leebyunghun.kr/html/images/main/add_img01.jpg" alt="" /></div>
+	 		</li>
+	 		<li>
+	 			<a href="">2</a>
+	 			<div><img src="http://www.leebyunghun.kr/html/images/main/add_img02.jpg" alt="" /></div>
+	 		</li>
+	 		<li>
+	 			<a href="">3</a>
+	 			<div><img src="http://www.leebyunghun.kr/html/images/main/add_img03.jpg" alt="" /></div>
+	 		</li>
+	 	</ul>
+	 	
+	 	
+	 </div>
+	 
+</body>
+</html>

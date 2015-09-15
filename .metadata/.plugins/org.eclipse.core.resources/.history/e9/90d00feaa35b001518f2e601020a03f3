@@ -1,0 +1,7 @@
+* {margin: 0; padding: 0;}
+ul,li {list-style-type: none;}
+a{text-decoration: none;}
+fieldset {border: 0 none;}
+
+#topbar {height:40px; border-bottom:1px solid #a6a6a6; background:#ccc ;}
+.wrap {width:980px; height:40px; margin:0 auto;}

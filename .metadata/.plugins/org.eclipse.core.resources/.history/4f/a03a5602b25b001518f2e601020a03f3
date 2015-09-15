@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="common2.css" />
+</head>
+<body>
+	<div id="topbar">
+		<div class="wrap">
+			<fieldset>
+				<legend class="ir">검색</legend>
+				<label for="search"></label>
+				<input type="text" id="search" />
+				<input type="submit" value="검색" />
+			</fieldset>
+			
+		</div><!--wrap[ex]-->
+		
+	</div><!--topbar[ex]-->
+	
+	<div id="header">
+		<div class="wrap">
+			<h1><a href="#"><img src="" alt="" /></a></h1>
+			
+			<div>배너 </div>
+			
+			<div class="lnb">
+				<ul class="">
+					<li class="on">
+						<a href="">menu</a>
+						<div>
+							<ul>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+							</ul>
+						</div>
+					</li><!--first[ex]-->
+					
+					<li>
+						<a href="">menu</a>
+						<div>
+							<ul>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+							</ul>
+							
+						</div>	
+					</li><!--second[ex]-->
+					
+					<li>
+						<a href="">menu</a>
+						<div>
+							<ul>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+							</ul>
+						</div>	
+					</li><!--third[ex]-->
+					<li>
+						<a href="">menu</a>
+						<div>
+							<ul>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a></li>
+								<li><a href="">dep2</a>
+									<div>
+										<ul class="hidden">
+											<li><a href="">depth3</a></li>
+											<li><a href="">depth3</a></li>
+											<li><a href="">depth3</a></li>
+										</ul>
+										
+									</div>
+									
+								</li>
+							</ul>
+						</div>	
+					</li><!--last[ex]-->
+				</ul><!--lnb[ul]-->
+				
+				
+				
+			</div><!--lnb[ex]-->
+			
+		</div><!--wrap[ex]-->
+		
+		
+		
+	</div><!--header[ex]-->
+</body>
+</html>
